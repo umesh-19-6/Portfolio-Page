@@ -1,0 +1,143 @@
+header {
+    position: relative;
+    top: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header {
+    text-align: center;
+    padding: 3px;
+    background-color: #ffffff;
+}
+
+header .navigation a {
+    color: #000;
+    text-shadow: 2px 2px 5px red;
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 2px 15px;
+    border-radius: 20px;
+    transition: 0.3s;
+    transition-property: background;
+}
+
+.container {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.coverText {
+    position: absolute;
+    font-size: 300%;
+    text-shadow: 2px 2px 5px red;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.grid-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(550px, 1fr));
+    grid-gap: 10px;
+}
+
+.card {
+    background-color: wheat;
+    color: black;
+    margin: 60px;
+}
+
+.card>img {
+    max-width: 100%;
+    height: auto;
+}
+
+.card h1 {
+    font-size: 2rem;
+}
+
+.card p {
+    font-size: 1.3rem;
+}
+
+.card>.text {
+    padding: 0 25px 25px;
+}
+
+button:hover {
+    background-color: #414040;
+    color: white;
+}
+
+.ENQUIRY {
+    padding: 3px;
+    background-color: wheat;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 0px;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+input[type=reset] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+input[type=reset]:hover {
+    background-color: #45a049;
+}
+
+form {
+    max-width: 520px;
+    margin: 50px auto;
+}
+
+footer.parta {
+    text-align: center;
+    padding: 3px;
+    background-color: wheat;
+}
+footer.parta a{
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+    color: white;
+}
+
+footer.part {
+    text-align: center;
+    padding: 3px;
+    background-color: rgb(248, 216, 156);
+}
+footer.part a{
+text-shadow: 2px 2px 5px rgb(0, 0, 0);
+color: white;
+}
